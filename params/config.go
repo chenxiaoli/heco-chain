@@ -42,7 +42,7 @@ var CheckpointOracles = map[common.Hash]*CheckpointOracleConfig{}
 var (
 	// MainnetChainConfig is the chain parameters to run a node on the main network.
 	MainnetChainConfig = &ChainConfig{
-		ChainID:             big.NewInt(128),
+		ChainID:             big.NewInt(555),
 		HomesteadBlock:      big.NewInt(0),
 		DAOForkBlock:        nil,
 		DAOForkSupport:      true,
@@ -54,10 +54,10 @@ var (
 		PetersburgBlock:     big.NewInt(0),
 		IstanbulBlock:       big.NewInt(0),
 		MuirGlacierBlock:    nil,
-		RedCoastBlock:       big.NewInt(6618800),
-		BerlinBlock:         big.NewInt(8577000),
-		LondonBlock:         big.NewInt(8577000),
-		SophonBlock:         big.NewInt(8577000),
+		RedCoastBlock:       big.NewInt(0),
+		BerlinBlock:         big.NewInt(0),
+		LondonBlock:         big.NewInt(0),
+		SophonBlock:         big.NewInt(0),
 		ArrowGlacierBlock:   nil,
 
 		Congress: &CongressConfig{
@@ -70,7 +70,7 @@ var (
 
 	// TestnetChainConfig contains the chain parameters to run a node on the YOLOv1 test network.
 	TestnetChainConfig = &ChainConfig{
-		ChainID:             big.NewInt(256),
+		ChainID:             big.NewInt(666),
 		HomesteadBlock:      big.NewInt(0),
 		DAOForkBlock:        nil,
 		DAOForkSupport:      true,
@@ -82,10 +82,10 @@ var (
 		PetersburgBlock:     big.NewInt(0),
 		IstanbulBlock:       big.NewInt(0),
 		MuirGlacierBlock:    nil,
-		RedCoastBlock:       big.NewInt(6072600),
-		BerlinBlock:         big.NewInt(8290000),
-		LondonBlock:         big.NewInt(8290000),
-		SophonBlock:         big.NewInt(8290000),
+		RedCoastBlock:       big.NewInt(0),
+		BerlinBlock:         big.NewInt(0),
+		LondonBlock:         big.NewInt(0),
+		SophonBlock:         big.NewInt(0),
 		Congress: &CongressConfig{
 			Period: 3,
 			Epoch:  200,
